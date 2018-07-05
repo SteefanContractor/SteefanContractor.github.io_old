@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Steefan Contractor</title>
+    <link>https://steefancontractor.github.io/post/</link>
+    <description>Recent content in Posts on Steefan Contractor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1100</lastBuildDate>
+    
+	<atom:link href="https://steefancontractor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Voting In The Senate</title>
+      <link>https://steefancontractor.github.io/post/voting-in-the-senate/</link>
+      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/post/voting-in-the-senate/</guid>
+      <description>The changed senate voting system actually makes a big difference to how we should vote this time around. In this blog I describe these changes and what they mean for us.
+In the federal election we get to cast two votes, one for the local candidate in the House of Representatives and the other for the Senate Candidate. I am in the electorate of Grayndler which historically has been a very safe Labor seat and even though there is a lot of hype out there about the new Greens candidate Jim Cassey, I still think Albanese is going to safely keep his seat (I would love to be wrong).</description>
+    </item>
+    
+    <item>
+      <title>Bellbird Wall, Close Call</title>
+      <link>https://steefancontractor.github.io/post/bellbird-wall-close-call/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/post/bellbird-wall-close-call/</guid>
+      <description>Last Saturday, on 26th March 2016, a friend and fellow climber was injured while attempting a multipitch route near pulpit rock in Blackheath. This is a personal account of the events that unfolded.
+The plan was to leave Sydney at 7am, bright and early, and do either some multipitching or canyoning. We could have done one of the Bowens Ck South canyons or Butterbox canyon or either Whymper or Bellbird wall multipitch routes.</description>
+    </item>
+    
+  </channel>
+</rss>
