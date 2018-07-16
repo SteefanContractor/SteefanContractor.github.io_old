@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42.2" />
+  <meta name="author" content="Steefan Contractor">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="I attended the ARCCSS/CLEX winter school from 25th-29th June 2018. The theme of the winter school was climate extremes and so it involved lectures in the morning on various climate extremes (such as heatwaves and rainfall extremes) and also a group activity in the afternoons. The groups were tasked with producing analysis investigating one of five complex questions which are listed below.
+ Project A: Examine the influence of modes of climate variability on temperature extremes over Australia Project B: Examine the influence of modes of climate variability on precipitation extremes over Australia Project C: Examine the role of soil moisture preconditioning on the frequency and/or intensity of heatwaves Project D: Examine changes in drought and what this means for impacts in Australia Project E: Pick a recent extreme event.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#EF525B">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/override.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://steefancontractor.github.io/index.xml" type="application/rss+xml" title="Steefan Contractor">
+  <link rel="feed" href="https://steefancontractor.github.io/index.xml" type="application/rss+xml" title="Steefan Contractor">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@StefanContracto">
+  <meta property="twitter:creator" content="@StefanContracto">
+  
+  <meta property="og:site_name" content="Steefan Contractor">
+  <meta property="og:url" content="https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/">
+  <meta property="og:title" content="ARCCSS/CLEX Winter School 2018: Event Detection and Attribution | Steefan Contractor">
+  <meta property="og:description" content="I attended the ARCCSS/CLEX winter school from 25th-29th June 2018. The theme of the winter school was climate extremes and so it involved lectures in the morning on various climate extremes (such as heatwaves and rainfall extremes) and also a group activity in the afternoons. The groups were tasked with producing analysis investigating one of five complex questions which are listed below.
+ Project A: Examine the influence of modes of climate variability on temperature extremes over Australia Project B: Examine the influence of modes of climate variability on precipitation extremes over Australia Project C: Examine the role of soil moisture preconditioning on the frequency and/or intensity of heatwaves Project D: Examine changes in drought and what this means for impacts in Australia Project E: Pick a recent extreme event."><meta property="og:image" content="https://steefancontractor.github.io/img/density_plots.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-07-13T19:20:25&#43;03:00">
+  
+  <meta property="article:modified_time" content="2018-07-13T19:20:25&#43;03:00">
+  
+
+  
+  
+
+  <title>ARCCSS/CLEX Winter School 2018: Event Detection and Attribution | Steefan Contractor</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Steefan Contractor</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#work_experience">
+            
+            <span>Work Experience</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/pdf/SteefanContractor_CV.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="/img/density_plots.png" class="article-banner" itemprop="image">
+  
+
+  
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">ARCCSS/CLEX Winter School 2018: Event Detection and Attribution</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-07-13 19:20:25 &#43;0300 &#43;0300" itemprop="datePublished dateModified">
+      Jul 13, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Steefan Contractor">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=ARCCSS%2fCLEX%20Winter%20School%202018%3a%20Event%20Detection%20and%20Attribution&amp;url=https%3a%2f%2fsteefancontractor.github.io%2fpost%2farccss-clex_winterschool_2018%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsteefancontractor.github.io%2fpost%2farccss-clex_winterschool_2018%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsteefancontractor.github.io%2fpost%2farccss-clex_winterschool_2018%2f&amp;title=ARCCSS%2fCLEX%20Winter%20School%202018%3a%20Event%20Detection%20and%20Attribution"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsteefancontractor.github.io%2fpost%2farccss-clex_winterschool_2018%2f&amp;title=ARCCSS%2fCLEX%20Winter%20School%202018%3a%20Event%20Detection%20and%20Attribution"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=ARCCSS%2fCLEX%20Winter%20School%202018%3a%20Event%20Detection%20and%20Attribution&amp;body=https%3a%2f%2fsteefancontractor.github.io%2fpost%2farccss-clex_winterschool_2018%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>I attended the ARCCSS/CLEX winter school from 25th-29th June 2018. The theme of the winter school was climate extremes and so it involved lectures in the morning on various climate extremes (such as heatwaves and rainfall extremes) and also a group activity in the afternoons. The groups were tasked with producing analysis investigating one of five complex questions which are listed below.</p>
+
+<ul>
+<li>Project A: Examine the influence of modes of climate variability on temperature extremes over Australia</li>
+<li>Project B: Examine the influence of modes of climate variability on precipitation extremes over Australia</li>
+<li>Project C: Examine the role of soil moisture preconditioning on the frequency and/or intensity of heatwaves</li>
+<li>Project D: Examine changes in drought and what this means for impacts in Australia</li>
+<li>Project E: Pick a recent extreme event. What are the natural and anthropogenic influences?</li>
+</ul>
+
+<p>Each group was comprised of 6-7 students with various backgrounds and at various stages of their education. I think Melissa Hart, our ARCCSS/CLEX graduate director, did a great job allocating students to various projects that highlighted their skills as well as gave them an opportunity to improve in their weak areas. Since my PhD has focused heavily on observations, including the creation of a global dataset of daily precipitation, I have always felt like I could improve my climate model output analysis skills. As such I was very excited when I discovered that my group was allocated the fifth project, the detection and attribution project.</p>
+
+<p>Right from the beginning I new what I wanted to get out of this project. I wanted to make sure that by the end of the project I new how to design and conduct an experiment that involves analysing climate model simulations. This meant knowing what the different model output variables are, what the various runs are (historical, future RCP projections, various forcings, various initial conditions etc.), what the various climate models are in ensembles like the CMIP5 ensemble, the structure and location of these variables on Raijin (<a href="https://nci.org.au" target="_blank">Australia&rsquo;s supercomputer</a>), and where to find information on these variables.</p>
+
+<p>As a group we were keen to do event attribution on a recent event or at least an event that other researchers had not looked at yet. As a result we decided to look at the anomalously warm April we had this year. Based on the heatmap of temperature percentiles for 2018 on <a href="https://isithotrightnow.com" target="_blank">isithotrightnow.com</a>, we were aware of the heatwaves in Sydney, Adelaide, Canberra and Alice springs in the middle of April. Upon checking the Bureau of Metoerology website, we discovered that 2018 April average Tmax temperature was hottest on record and 2018 April Tavg was second highest on record. Upon further research we discovered <a href="https://theconversation.com/ocean-heat-waves-and-weaker-winds-will-keep-australia-warm-for-a-while-yet-94897" target="_blank">a conversation article</a> which explained the conditions around the warmer than average temperatures in Australia at the time.</p>
+
+<p><figure>
+
+<img src="/img/Canberra%20heatmap.png" />
+
+
+</figure>
+<figure>
+
+<img src="/img/Sydney%20heatmap.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Temperatures in Sydney and Canberra were anomalously high throughout April. Source: <a href="https://isithotrightnow.com" target="_blank">isithotrightnow.com</a></h4>
+  
+</figcaption>
+
+</figure>
+<figure>
+
+<img src="/img/tmax.aus.04.60334.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>April average Tmax anomalies for Australia. Source: BOM</h4>
+  
+</figcaption>
+
+</figure></p>
+
+<p>So why were temperature in Australia so high in April this year? The main reasons were the anomolously high Sea Surface Temperatures (SSTs) in the Tasman sea off the east coast of Australia which caused a low pressure off the east coast in turn weakening the cooling westerly winds, and the lower than average soil moisture conditions in Southern Australia at the time.</p>
+
+<p>The experiment we decided to conduct was simple. The aim was to investigate whether the anomalously warm April Tmax average temperature was more likely in the current world compared to the natural world. We decided to look at the models in the CMIP5 ensemble to do this. There were 15 models with both historical runs with all forcings, including anthropogenic (historical-ALL), and historical runs with only natural forcings, no anthropogenic (historical-NAT). The plan was to look at however many years of simulations in the various runs of each of these models and create a distribution of April average Tmax temperatures in historical-ALL runs and compare it with the distribution based on historical-NAT runs. We would then compute the fraction of attributable risk (FAR) value using the probabilities of April 2018 temperatures greater than or equal to our chosen absolute April threshold in these two scenarios (natural vs all-forcing).</p>
+
+<p>$$ FAR = 1 - \frac{P_{NAT}}{P_{ALL}} $$</p>
+
+<p>Since we are using an absolute threshold, however, we need to bias correct the models first. We did this by calculating the difference in means of April Tmax temperatures for Australia over 1961-1990 between historical-ALL runs of each model and observations, for which we used the AWAP dataset, and then added this difference back to the April 2018 Tmax temperatures for the respective models. Upon a quick discussion with <a href="https://twitter.com/AndrewKingClim" target="_blank">Andrew King</a>, I realised that bias correcting the models in this way assumes that the models are biased only in the means but not in the variance or skewness of the distribution. However, due to the time constraints of finishing the project during the winter school we decided to stick with our simple bias correction strategy. During our bias correction process, however, we realised that two of the models IPSL-CM5A-LR and IPSL-CM5A-MR were still biased. This could have been as a result of an error in the calculation of the bias or perhaps the bias in these models is not systematic in time, meaning the bias over 1961-1990 is not the same as the bias over the entire period of run for this model. In the end we decided to not use these models. The biases in our models are shown below, including the two models which we did not use.</p>
+
+<figure>
+
+<img src="/img/model%20biases%20wrt%20AWAP.png" />
+
+
+
+<figcaption data-pre="Figure " data-post=":" >
+  <h4>Surprisingly large biases between April Tmax averaged over 1961-1990 between models and observations.</h4>
+  
+</figcaption>
+
+</figure>
+
+<p>Our results (as seen in the main figure above the title) show that the historical-ALL distribution is shifted to the right compared to the historical-NAT distribution, however, the variance of the historical-ALL distribution is also smaller compared to the variance of the historical-NAT distribution. As a result, total area underneath the pdf to the right of the threshold (shown by the vertical black line) is actually smaller in the historical-ALL distribution compared to the historical-NAT distribution (as seen below). As a result, the resulting FAR value was -12.1%! During my conversation with Andrew King earlier, I was also informed that I can calculate the significance of my FAR value using bootstrapping. This is done by randomly sampling runs from both historical-ALL and historical-NAT runs and calculating the FAR value based on these. This process is repeated to create a distribution of our null hypothesis that the April 2018 Tmax temperatures are not more or less likely in the anthropogenic world. We can then test our FAR value against this distribution at a 10% level (5th and 95th percentile) to check for significance. We did not have time to conduct this bootstrapping exercise during the winter school but I suspect, had we done it, we would have found that our FAR value is not significant. My understanding is that the April 2018 event we chose is too extreme to accurately estimate the tails of the distributions because of the lack of estimates around the threshold. I believe if we chose a less extreme event we could have gotten a significant FAR value. The other possibility is that models cannot actually produce temperature this extreme given the initial conditions. Had we bias corrected the variance of the Tmax distributions for each model, we could have estimated the tails of the distribution better.</p>
+
+<p><img src="/img/density_plot_zoomed.png" alt="" /></p>
+
+<p>I think when it comes to event attribution, the actual FAR values should be given less emphasis anyway because of the uncertainties associated with the models and observations. I think we should be satisfied with statements that just say if the event in question is more or less likely in the anthropogenic world. Unfortunately we cannot with certainty make any such statements based on our analysis, although it looks like the event may not have an anthropogenic influence!</p>
+
+<p>In terms of the future work related to this project, we clearly need to do the bias correction properly and also include an uncertainty based on the bootstrapping exercise. Based on the BOM data we also discovered that these anomalous April temperature were also the most widespread across Australia. So another interesting attribution exercise would be to attribute the spatial extent of this event to anthropogenic forcing. This can be done by once again choosing a local percentile based threshold for each grid cell to determine if the temperatures there are anomalous compared to the past. We can then count and compare the number of grids experiencing anomalous temperatures during April 2018 in the historical-ALL vs the historical-NAT simulations.</p>
+
+<p>In summary, I thought the entire exercise served its main purpose which is that I now feel a lot more confident in designing and conducting experiments that involve CMIP5 model output analysis. A huge thanks to Melissa Hart, out ARCCSS/CLEX graduate director, for a great winter school!</p>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

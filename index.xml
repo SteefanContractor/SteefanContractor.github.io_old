@@ -16,7 +16,7 @@
       <pubDate>Mon, 16 Jul 2018 11:28:31 +1000</pubDate>
       
       <guid>https://steefancontractor.github.io/post/industry_cv/</guid>
-      <description>&lt;p&gt;I have applied for &lt;a href=&#34;https://www.thedataincubator.com/application_status.html&#34; target=&#34;_blank&#34;&gt;The Data Incubator&lt;/a&gt; Fellowship program, a highly competetive fellowship aimed at bringing researchers with exceptional data analysis and statistical talent into industry. During the process I have been asked to update my resume based on some very helpful tips. I wish to share this advice with any fellow researchers interested in applying for industry data science positions. Note that I do NOT own any of the following information and The Data Incubator is completely within its rights to request me to take this post down, should they desire.&lt;/p&gt;
+      <description>&lt;p&gt;I have applied for &lt;a href=&#34;https://www.thedataincubator.com/application_status.html&#34; target=&#34;_blank&#34;&gt;The Data Incubator&lt;/a&gt; Fellowship program, a highly competitive fellowship aimed at bringing researchers with exceptional data analysis and statistical talent into industry. During the process I have been asked to update my resume based on some very helpful tips. I wish to share this advice with any fellow researchers interested in applying for industry data science positions. Note that I do NOT own any of the following information and The Data Incubator is completely within its rights to request me to take this post down, should they desire.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;hellip;you will not be judged by the sum total of what you have accomplished, but rather by the average of what you present. So your strategy should only be to present the best things (as judged by your audience) and cut out anything else. The other stuff only detracts.&lt;/p&gt;
@@ -65,6 +65,92 @@
     </item>
     
     <item>
+      <title>ARCCSS/CLEX Winter School 2018: Event Detection and Attribution</title>
+      <link>https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/</link>
+      <pubDate>Fri, 13 Jul 2018 19:20:25 +0300</pubDate>
+      
+      <guid>https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/</guid>
+      <description>&lt;p&gt;I attended the ARCCSS/CLEX winter school from 25th-29th June 2018. The theme of the winter school was climate extremes and so it involved lectures in the morning on various climate extremes (such as heatwaves and rainfall extremes) and also a group activity in the afternoons. The groups were tasked with producing analysis investigating one of five complex questions which are listed below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project A: Examine the influence of modes of climate variability on temperature extremes over Australia&lt;/li&gt;
+&lt;li&gt;Project B: Examine the influence of modes of climate variability on precipitation extremes over Australia&lt;/li&gt;
+&lt;li&gt;Project C: Examine the role of soil moisture preconditioning on the frequency and/or intensity of heatwaves&lt;/li&gt;
+&lt;li&gt;Project D: Examine changes in drought and what this means for impacts in Australia&lt;/li&gt;
+&lt;li&gt;Project E: Pick a recent extreme event. What are the natural and anthropogenic influences?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each group was comprised of 6-7 students with various backgrounds and at various stages of their education. I think Melissa Hart, our ARCCSS/CLEX graduate director, did a great job allocating students to various projects that highlighted their skills as well as gave them an opportunity to improve in their weak areas. Since my PhD has focused heavily on observations, including the creation of a global dataset of daily precipitation, I have always felt like I could improve my climate model output analysis skills. As such I was very excited when I discovered that my group was allocated the fifth project, the detection and attribution project.&lt;/p&gt;
+
+&lt;p&gt;Right from the beginning I new what I wanted to get out of this project. I wanted to make sure that by the end of the project I new how to design and conduct an experiment that involves analysing climate model simulations. This meant knowing what the different model output variables are, what the various runs are (historical, future RCP projections, various forcings, various initial conditions etc.), what the various climate models are in ensembles like the CMIP5 ensemble, the structure and location of these variables on Raijin (&lt;a href=&#34;https://nci.org.au&#34; target=&#34;_blank&#34;&gt;Australia&amp;rsquo;s supercomputer&lt;/a&gt;), and where to find information on these variables.&lt;/p&gt;
+
+&lt;p&gt;As a group we were keen to do event attribution on a recent event or at least an event that other researchers had not looked at yet. As a result we decided to look at the anomalously warm April we had this year. Based on the heatmap of temperature percentiles for 2018 on &lt;a href=&#34;https://isithotrightnow.com&#34; target=&#34;_blank&#34;&gt;isithotrightnow.com&lt;/a&gt;, we were aware of the heatwaves in Sydney, Adelaide, Canberra and Alice springs in the middle of April. Upon checking the Bureau of Metoerology website, we discovered that 2018 April average Tmax temperature was hottest on record and 2018 April Tavg was second highest on record. Upon further research we discovered &lt;a href=&#34;https://theconversation.com/ocean-heat-waves-and-weaker-winds-will-keep-australia-warm-for-a-while-yet-94897&#34; target=&#34;_blank&#34;&gt;a conversation article&lt;/a&gt; which explained the conditions around the warmer than average temperatures in Australia at the time.&lt;/p&gt;
+
+&lt;p&gt;&lt;figure&gt;
+
+&lt;img src=&#34;https://steefancontractor.github.io/img/Canberra%20heatmap.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+&lt;figure&gt;
+
+&lt;img src=&#34;https://steefancontractor.github.io/img/Sydney%20heatmap.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Temperatures in Sydney and Canberra were anomalously high throughout April. Source: &lt;a href=&#34;https://isithotrightnow.com&#34; target=&#34;_blank&#34;&gt;isithotrightnow.com&lt;/a&gt;&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+&lt;figure&gt;
+
+&lt;img src=&#34;https://steefancontractor.github.io/img/tmax.aus.04.60334.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;April average Tmax anomalies for Australia. Source: BOM&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;So why were temperature in Australia so high in April this year? The main reasons were the anomolously high Sea Surface Temperatures (SSTs) in the Tasman sea off the east coast of Australia which caused a low pressure off the east coast in turn weakening the cooling westerly winds, and the lower than average soil moisture conditions in Southern Australia at the time.&lt;/p&gt;
+
+&lt;p&gt;The experiment we decided to conduct was simple. The aim was to investigate whether the anomalously warm April Tmax average temperature was more likely in the current world compared to the natural world. We decided to look at the models in the CMIP5 ensemble to do this. There were 15 models with both historical runs with all forcings, including anthropogenic (historical-ALL), and historical runs with only natural forcings, no anthropogenic (historical-NAT). The plan was to look at however many years of simulations in the various runs of each of these models and create a distribution of April average Tmax temperatures in historical-ALL runs and compare it with the distribution based on historical-NAT runs. We would then compute the fraction of attributable risk (FAR) value using the probabilities of April 2018 temperatures greater than or equal to our chosen absolute April threshold in these two scenarios (natural vs all-forcing).&lt;/p&gt;
+
+&lt;p&gt;$$ FAR = 1 - \frac{P_{NAT}}{P_{ALL}} $$&lt;/p&gt;
+
+&lt;p&gt;Since we are using an absolute threshold, however, we need to bias correct the models first. We did this by calculating the difference in means of April Tmax temperatures for Australia over 1961-1990 between historical-ALL runs of each model and observations, for which we used the AWAP dataset, and then added this difference back to the April 2018 Tmax temperatures for the respective models. Upon a quick discussion with &lt;a href=&#34;https://twitter.com/AndrewKingClim&#34; target=&#34;_blank&#34;&gt;Andrew King&lt;/a&gt;, I realised that bias correcting the models in this way assumes that the models are biased only in the means but not in the variance or skewness of the distribution. However, due to the time constraints of finishing the project during the winter school we decided to stick with our simple bias correction strategy. During our bias correction process, however, we realised that two of the models IPSL-CM5A-LR and IPSL-CM5A-MR were still biased. This could have been as a result of an error in the calculation of the bias or perhaps the bias in these models is not systematic in time, meaning the bias over 1961-1990 is not the same as the bias over the entire period of run for this model. In the end we decided to not use these models. The biases in our models are shown below, including the two models which we did not use.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;https://steefancontractor.github.io/img/model%20biases%20wrt%20AWAP.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Surprisingly large biases between April Tmax averaged over 1961-1990 between models and observations.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Our results (as seen in the main figure above the title) show that the historical-ALL distribution is shifted to the right compared to the historical-NAT distribution, however, the variance of the historical-ALL distribution is also smaller compared to the variance of the historical-NAT distribution. As a result, total area underneath the pdf to the right of the threshold (shown by the vertical black line) is actually smaller in the historical-ALL distribution compared to the historical-NAT distribution (as seen below). As a result, the resulting FAR value was -12.1%! During my conversation with Andrew King earlier, I was also informed that I can calculate the significance of my FAR value using bootstrapping. This is done by randomly sampling runs from both historical-ALL and historical-NAT runs and calculating the FAR value based on these. This process is repeated to create a distribution of our null hypothesis that the April 2018 Tmax temperatures are not more or less likely in the anthropogenic world. We can then test our FAR value against this distribution at a 10% level (5th and 95th percentile) to check for significance. We did not have time to conduct this bootstrapping exercise during the winter school but I suspect, had we done it, we would have found that our FAR value is not significant. My understanding is that the April 2018 event we chose is too extreme to accurately estimate the tails of the distributions because of the lack of estimates around the threshold. I believe if we chose a less extreme event we could have gotten a significant FAR value. The other possibility is that models cannot actually produce temperature this extreme given the initial conditions. Had we bias corrected the variance of the Tmax distributions for each model, we could have estimated the tails of the distribution better.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://steefancontractor.github.io/img/density_plot_zoomed.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think when it comes to event attribution, the actual FAR values should be given less emphasis anyway because of the uncertainties associated with the models and observations. I think we should be satisfied with statements that just say if the event in question is more or less likely in the anthropogenic world. Unfortunately we cannot with certainty make any such statements based on our analysis, although it looks like the event may not have an anthropogenic influence!&lt;/p&gt;
+
+&lt;p&gt;In terms of the future work related to this project, we clearly need to do the bias correction properly and also include an uncertainty based on the bootstrapping exercise. Based on the BOM data we also discovered that these anomalous April temperature were also the most widespread across Australia. So another interesting attribution exercise would be to attribute the spatial extent of this event to anthropogenic forcing. This can be done by once again choosing a local percentile based threshold for each grid cell to determine if the temperatures there are anomalous compared to the past. We can then count and compare the number of grids experiencing anomalous temperatures during April 2018 in the historical-ALL vs the historical-NAT simulations.&lt;/p&gt;
+
+&lt;p&gt;In summary, I thought the entire exercise served its main purpose which is that I now feel a lot more confident in designing and conducting experiments that involve CMIP5 model output analysis. A huge thanks to Melissa Hart, out ARCCSS/CLEX graduate director, for a great winter school!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ResBaz 2018 - Visualising data on the web with D3</title>
       <link>https://steefancontractor.github.io/post/d3_softwarecarpentry_resbaz2018/</link>
       <pubDate>Sun, 08 Jul 2018 06:07:57 +0300</pubDate>
@@ -80,7 +166,7 @@
 
 &lt;p&gt;On 4th July I participated in ResBaz 2018, an excellent conference for building and sharing research skills as well as networking. It is a fantastic platform for cross-disciplinary information and skill exchange. Plus the food was excellent which was an unexpected bonus (I later found out that they spent 90% of their budget on food!). I highly recommend ResBaz to other early career researchers. This year ResBaz was held in Sydney at the Macquarie University.&lt;/p&gt;
 
-&lt;p&gt;During the first two days of the conference attendees participate in various workshops and the third day is focussed on networking. I enrolled into the Advanced Python Workshop, the second day of which had nothing to do with Python, but instead, was focussed on a javascript framework for producing interactive visualisations on the web called D3.js. I have always been interested in picking up D3, since I think it is a great tool for publishing visualisations on the web! The resulting content can be static web pages and do not require servers. However, because of the fine control of every graphic element that D3 offers, it is not useful for creating quick and dirty visualisations. If your aim is to create an interactive plot to explore your data, then I think D3 is not the right tool for it. In such cases you are better off using API services like R Shiny which provide less fine control of the various plot elements but is much quicker to code as a result. Although I had done a brief web course on D3 in the past, I did not feel confident creating various plots in D3 until after this hands-on workshop.&lt;/p&gt;
+&lt;p&gt;During the first two days of the conference attendees participate in various workshops and the third day is focused on networking. I enrolled into the Advanced Python Workshop, the second day of which had nothing to do with Python, but instead, was focused on a javascript framework for producing interactive visualisations on the web called D3.js. I have always been interested in picking up D3, since I think it is a great tool for publishing visualisations on the web! The resulting content can be static web pages and do not require servers. However, because of the fine control of every graphic element that D3 offers, it is not useful for creating quick and dirty visualisations. If your aim is to create an interactive plot to explore your data, then I think D3 is not the right tool for it. In such cases you are better off using API services like R Shiny which provide less fine control of the various plot elements but is much quicker to code as a result. Although I had done a brief web course on D3 in the past, I did not feel confident creating various plots in D3 until after this hands-on workshop.&lt;/p&gt;
 
 &lt;p&gt;The purpose of this post is to showcase the web based scatterplot created during this workshop and to give a basic overview of what D3 is and how you can get started with it. If interested, one can go through the &lt;a href=&#34;https://mq-software-carpentry.github.io/D3-visualising-data/&#34; target=&#34;_blank&#34;&gt;Software carpentry D3 course&lt;/a&gt; for step by step instructions on the entire project.&lt;/p&gt;
 
@@ -288,11 +374,11 @@ d3.json(dataURL)
 
 &lt;p&gt;After the checkboxes are created we create the axes for the plot. We create y-axis on a log-scale, and the x-axis on a linear scale and add labels to these axes.&lt;/p&gt;
 
-&lt;p&gt;Finally we write a function called update(). All the circles are created inside this function. We need to do this inside a function because everytime we check or uncheck a region checkbox, we filter the data accordingly, and then we would like to replot our circles accordingly. So note that back in our code where we select all checkboxes (elements with class &amp;ldquo;input&amp;rdquo;), each time a checkbox is checked or unchecked, we call this update() function to update the plot based on the filtered dataset. I would also like to draw your attention to how we associate each circle with the income, lifeExpectancy, population and region columns of our data inside the update function. To do this we feed the income, lifeExpectancy, population and region data for a particular point to the x position (&amp;ldquo;cx&amp;rdquo;), y position (&amp;ldquo;cy&amp;rdquo;), radius (&amp;ldquo;r&amp;rdquo;) and fill colour (&amp;ldquo;fill&amp;rdquo;) attributes of our circles.&lt;/p&gt;
+&lt;p&gt;Finally we write a function called update(). All the circles are created inside this function. We need to do this inside a function because every time we check or uncheck a region checkbox, we filter the data accordingly, and then we would like to replot our circles accordingly. So note that back in our code where we select all checkboxes (elements with class &amp;ldquo;input&amp;rdquo;), each time a checkbox is checked or unchecked, we call this update() function to update the plot based on the filtered dataset. I would also like to draw your attention to how we associate each circle with the income, lifeExpectancy, population and region columns of our data inside the update function. To do this we feed the income, lifeExpectancy, population and region data for a particular point to the x position (&amp;ldquo;cx&amp;rdquo;), y position (&amp;ldquo;cy&amp;rdquo;), radius (&amp;ldquo;r&amp;rdquo;) and fill colour (&amp;ldquo;fill&amp;rdquo;) attributes of our circles.&lt;/p&gt;
 
-&lt;p&gt;I do not expect most people who have never looked at HTML, CSS or Javascript code to understand what is happening based on just this blogpost. The aim here was to just show you what D3.js is capable of and showcase some interesting and powerful programming concepts that I was not familiar with before trying out D3.js. If you feel inspired please go through the &lt;a href=&#34;http://mq-software-carpentry.github.io/D3-visualising-data/&#34; target=&#34;_blank&#34;&gt;step by step instructions&lt;/a&gt; on creating the plot yourself. The best way to progress from their would be to go to &lt;a href=&#34;https://d3js.org&#34; target=&#34;_blank&#34;&gt;d3js.org&lt;/a&gt; and check out the numerous examples of the various plots you can make with D3. Note also that Chrome and Firefox have amazing developer tools available, which means that while writing the code one can use the &lt;em&gt;Inspect&lt;/em&gt; tool (On mac: Cmd + Shift + C; On windows: Ctrl + Shift + C) in Chrome to see the HTML code related to various plot elements.&lt;/p&gt;
+&lt;p&gt;I do not expect most people who have never looked at HTML, CSS or Javascript code to understand what is happening based on just this blog post. The aim here was to just show you what D3.js is capable of and showcase some interesting and powerful programming concepts that I was not familiar with before trying out D3.js. If you feel inspired please go through the &lt;a href=&#34;http://mq-software-carpentry.github.io/D3-visualising-data/&#34; target=&#34;_blank&#34;&gt;step by step instructions&lt;/a&gt; on creating the plot yourself. The best way to progress from their would be to go to &lt;a href=&#34;https://d3js.org&#34; target=&#34;_blank&#34;&gt;d3js.org&lt;/a&gt; and check out the numerous examples of the various plots you can make with D3. Note also that Chrome and Firefox have amazing developer tools available, which means that while writing the code one can use the &lt;em&gt;Inspect&lt;/em&gt; tool (On mac: Cmd + Shift + C; On windows: Ctrl + Shift + C) in Chrome to see the HTML code related to various plot elements.&lt;/p&gt;
 
-&lt;p&gt;You can find my github repo &lt;a href=&#34;https://github.com/steefancontractor/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, the live plot &lt;a href=&#34;https://steefancontractor.github.io/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, the instructor&amp;rsquo;s github &lt;a href=&#34;https://github.com/Spaxe/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and the original software-carpentry &amp;ldquo;D3 visualising data&amp;rdquo; repository &lt;a href=&#34;https://github.com/mq-software-carpentry/D3-visualising-data/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Also, a great reference for anything web development, including json, svg, css and javascript is the &lt;a href=&#34;https://developer.mozilla.org/&#34; target=&#34;_blank&#34;&gt;MDM website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find my github repository &lt;a href=&#34;https://github.com/steefancontractor/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, the live plot &lt;a href=&#34;https://steefancontractor.github.io/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, the instructor&amp;rsquo;s github &lt;a href=&#34;https://github.com/Spaxe/ResBazD3&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and the original software-carpentry &amp;ldquo;D3 visualising data&amp;rdquo; repository &lt;a href=&#34;https://github.com/mq-software-carpentry/D3-visualising-data/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Also, a great reference for anything web development, including json, svg, css and javascript is the &lt;a href=&#34;https://developer.mozilla.org/&#34; target=&#34;_blank&#34;&gt;MDM website&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
