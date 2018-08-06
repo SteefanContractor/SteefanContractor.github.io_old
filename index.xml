@@ -243,6 +243,8 @@ Climate change is increasing global temperature and since warmer air holds more 
 &lt;img src=&#34;https://steefancontractor.github.io/img/IMG-1749.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Special thanks to all the participants and organisors, especially Alvin and Anne for running this workshop!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;{{ template &amp;ldquo;_internal/disqus.html&amp;rdquo; . }}&lt;/p&gt;
 </description>
     </item>
     
