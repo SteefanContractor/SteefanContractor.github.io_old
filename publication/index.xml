@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0930</lastBuildDate>
     
 	<atom:link href="https://steefancontractor.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rainfall Estimates on a Gridded Network (REGEN) – A global land-based gridded dataset of daily precipitation from 1950–2013</title>
+      <link>https://steefancontractor.github.io/publication/regen_documentation/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/publication/regen_documentation/</guid>
+      <description>For access to the REGEN_AllStns_v1.1 dataset click here and for the REGEN_LongTermStns_v1.1 variant click here</description>
+    </item>
+    
+    <item>
+      <title>Intensification of the Daily Wet Day Rainfall DistributionAcross Australia</title>
+      <link>https://steefancontractor.github.io/publication/ausprcpchanges/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/publication/ausprcpchanges/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How much does it rain over land?</title>

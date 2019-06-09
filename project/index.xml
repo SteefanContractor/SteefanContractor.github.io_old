@@ -7,15 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 04 Jul 2018 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0930</lastBuildDate>
     
 	<atom:link href="https://steefancontractor.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A web application to explore Australian ocean observations</title>
+      <link>https://steefancontractor.github.io/project/unsw_oceanography_webapp/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/project/unsw_oceanography_webapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rainfall Estimates on a GriddEd Network (REGEN)</title>
+      <link>https://steefancontractor.github.io/project/regen/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/project/regen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Visualising data on the web with D3</title>
       <link>https://steefancontractor.github.io/project/resbazd3/</link>
-      <pubDate>Wed, 04 Jul 2018 00:00:00 +1000</pubDate>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0930</pubDate>
       
       <guid>https://steefancontractor.github.io/project/resbazd3/</guid>
       <description></description>
@@ -24,7 +42,7 @@
     <item>
       <title>isithotrightnow.com</title>
       <link>https://steefancontractor.github.io/project/isithotrightnow/</link>
-      <pubDate>Tue, 27 Feb 2018 00:00:00 +1100</pubDate>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0930</pubDate>
       
       <guid>https://steefancontractor.github.io/project/isithotrightnow/</guid>
       <description></description>

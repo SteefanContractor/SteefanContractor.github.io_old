@@ -7,8 +7,103 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0930</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Completed training and workshops in 2019</title>
+      <link>https://steefancontractor.github.io/post/2019_training_and_workshops/</link>
+      <pubDate>Sun, 09 Jun 2019 17:31:37 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/post/2019_training_and_workshops/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;12 Feb 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://intersect.org.au/training/course/julia101/&#34; target=&#34;_blank&#34;&gt;Learn to Program using Julia&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A one day course on basic programming with Julia&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;29-30 Apr 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://niasra.uow.edu.au/content/groups/public/@web/@inf/@math/documents/mm/uow256461.pdf&#34; target=&#34;_blank&#34;&gt;Spatio-Temporal Statistics with R&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;An intense hands-on workshop on bayesian spatiatemporal modelling with R covering the contents of the &lt;a href=&#34;https://spacetimewithr.org/&#34; target=&#34;_blank&#34;&gt;spacetime with R&lt;/a&gt; book. The workshop was run by the Statistical Society of Australia&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apr-May 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.meetup.com/dsai-syd/events/260444730/&#34; target=&#34;_blank&#34;&gt;Bayesian Inference - Statistical Rethinking Study Group&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A weekly hands-on study group run over five weeks on bayesian modelling iwth R and python based on the original course &lt;a href=&#34;https://github.com/rmcelreath/statrethinking_winter2019&#34; target=&#34;_blank&#34;&gt;Statistical Rethinking&lt;/a&gt; by Richard McElreath. This was part 1 of a 20 week course&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10 Jun 2019&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://damienirving.github.io/2019-06-10-amos/&#34; target=&#34;_blank&#34;&gt;Python for Atmosphere and Ocean Science (AMOS 2019)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A software carpentry workshop on Python for atmosphere and ocean science run by &lt;a href=&#34;https://drclimate.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Damin Irwing&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10 Jun 2019&lt;/td&gt;
+&lt;td&gt;Climate science data access and analysis at NCI&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I am also regularly attending the following meetups in Sydney&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Data-Science-Sydney/&#34; target=&#34;_blank&#34;&gt;Data Science Sydney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/dsai-syd/&#34; target=&#34;_blank&#34;&gt;Data Science &amp;amp; Artificial Intelligence Sydney&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/DeepSchool-io/&#34; target=&#34;_blank&#34;&gt;DeepSchool.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A web application to explore Australian ocean observations</title>
+      <link>https://steefancontractor.github.io/project/unsw_oceanography_webapp/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/project/unsw_oceanography_webapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rainfall Estimates on a Gridded Network (REGEN) – A global land-based gridded dataset of daily precipitation from 1950–2013</title>
+      <link>https://steefancontractor.github.io/publication/regen_documentation/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/publication/regen_documentation/</guid>
+      <description>&lt;p&gt;For access to the REGEN_AllStns_v1.1 dataset click &lt;a href=&#34;https://researchdata.ands.org.au/rainfall-estimates-gridded-station-v10/1340689&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and for the REGEN_LongTermStns_v1.1 variant click &lt;a href=&#34;https://researchdata.ands.org.au/rainfall-estimates-gridded-station-v10/1340690&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rainfall Estimates on a GriddEd Network (REGEN)</title>
+      <link>https://steefancontractor.github.io/project/regen/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/project/regen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intensification of the Daily Wet Day Rainfall DistributionAcross Australia</title>
+      <link>https://steefancontractor.github.io/publication/ausprcpchanges/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://steefancontractor.github.io/publication/ausprcpchanges/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Media training</title>
@@ -567,7 +662,7 @@ d3.json(dataURL)
     <item>
       <title>Visualising data on the web with D3</title>
       <link>https://steefancontractor.github.io/project/resbazd3/</link>
-      <pubDate>Wed, 04 Jul 2018 00:00:00 +1000</pubDate>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0930</pubDate>
       
       <guid>https://steefancontractor.github.io/project/resbazd3/</guid>
       <description></description>
@@ -576,7 +671,7 @@ d3.json(dataURL)
     <item>
       <title>isithotrightnow.com</title>
       <link>https://steefancontractor.github.io/project/isithotrightnow/</link>
-      <pubDate>Tue, 27 Feb 2018 00:00:00 +1100</pubDate>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0930</pubDate>
       
       <guid>https://steefancontractor.github.io/project/isithotrightnow/</guid>
       <description></description>
@@ -585,7 +680,7 @@ d3.json(dataURL)
     <item>
       <title>Quantifying Changes in Observed Precipitation Distribution Globally</title>
       <link>https://steefancontractor.github.io/talk/agufallmeeting2017/</link>
-      <pubDate>Thu, 14 Dec 2017 00:00:00 +1100</pubDate>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0930</pubDate>
       
       <guid>https://steefancontractor.github.io/talk/agufallmeeting2017/</guid>
       <description></description>
@@ -684,24 +779,6 @@ d3.json(dataURL)
 
 &lt;p&gt;I would like to take this opportunity to thank all the rescue workers who saved the day. I would also like to extend all my love, appreciation and thanks to Wen Jun, Bayu and Manon who were all skillful, brave, rational and selfless in the face of adversity. You guys are the best! 😄&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>How much does it rain over land?</title>
-      <link>https://steefancontractor.github.io/publication/herold2016/</link>
-      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/herold2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Well Do Gridded Datasets of Observed Daily Precipitation Compare over Australia?</title>
-      <link>https://steefancontractor.github.io/publication/paper1/</link>
-      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/paper1/</guid>
-      <description></description>
     </item>
     
   </channel>

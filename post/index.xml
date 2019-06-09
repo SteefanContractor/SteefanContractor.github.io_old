@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +1100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0930</lastBuildDate>
     
 	<atom:link href="https://steefancontractor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Completed training and workshops in 2019</title>
+      <link>https://steefancontractor.github.io/post/2019_training_and_workshops/</link>
+      <pubDate>Sun, 09 Jun 2019 17:31:37 +0930</pubDate>
+      
+      <guid>https://steefancontractor.github.io/post/2019_training_and_workshops/</guid>
+      <description>Date Title Info     12 Feb 2019 Learn to Program using Julia A one day course on basic programming with Julia   29-30 Apr 2019 Spatio-Temporal Statistics with R An intense hands-on workshop on bayesian spatiatemporal modelling with R covering the contents of the spacetime with R book. The workshop was run by the Statistical Society of Australia   Apr-May 2019 Bayesian Inference - Statistical Rethinking Study Group A weekly hands-on study group run over five weeks on bayesian modelling iwth R and python based on the original course Statistical Rethinking by Richard McElreath.</description>
+    </item>
     
     <item>
       <title>Media training</title>
