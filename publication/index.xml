@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Steefan Contractor</title>
-    <link>https://steefancontractor.github.io/publication/</link>
-    <description>Recent content in Publications on Steefan Contractor</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0930</lastBuildDate>
-    
-	<atom:link href="https://steefancontractor.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Rainfall Estimates on a Gridded Network (REGEN) – A global land-based gridded dataset of daily precipitation from 1950–2013</title>
-      <link>https://steefancontractor.github.io/publication/regen_documentation/</link>
-      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/regen_documentation/</guid>
-      <description>For access to the REGEN_AllStns_v1.1 dataset click here and for the REGEN_LongTermStns_v1.1 variant click here</description>
-    </item>
-    
-    <item>
-      <title>Intensification of the Daily Wet Day Rainfall DistributionAcross Australia</title>
-      <link>https://steefancontractor.github.io/publication/ausprcpchanges/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/ausprcpchanges/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How much does it rain over land?</title>
-      <link>https://steefancontractor.github.io/publication/herold2016/</link>
-      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/herold2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Well Do Gridded Datasets of Observed Daily Precipitation Compare over Australia?</title>
-      <link>https://steefancontractor.github.io/publication/paper1/</link>
-      <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/publication/paper1/</guid>
-      <description></description>
-    </item>
+    <title>Publications | Steefan Contractor</title>
+    <link>https://SteefanContractor.github.io/publication/</link>
+      <atom:link href="https://SteefanContractor.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://SteefanContractor.github.io/media/icon_hu4d574013bb10331a675ee8ec27a93153_23560_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://SteefanContractor.github.io/publication/</link>
+    </image>
     
   </channel>
 </rss>

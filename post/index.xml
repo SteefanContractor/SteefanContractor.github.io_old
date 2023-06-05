@@ -1,75 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Steefan Contractor</title>
-    <link>https://steefancontractor.github.io/post/</link>
-    <description>Recent content in Posts on Steefan Contractor</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0930</lastBuildDate>
-    
-	<atom:link href="https://steefancontractor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Completed training and workshops in 2019</title>
-      <link>https://steefancontractor.github.io/post/2019_training_and_workshops/</link>
-      <pubDate>Sun, 09 Jun 2019 17:31:37 +0930</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/2019_training_and_workshops/</guid>
-      <description>Date Title Info     12 Feb 2019 Learn to Program using Julia A one day course on basic programming with Julia   29-30 Apr 2019 Spatio-Temporal Statistics with R An intense hands-on workshop on bayesian spatiatemporal modelling with R covering the contents of the spacetime with R book. The workshop was run by the Statistical Society of Australia   Apr-May 2019 Bayesian Inference - Statistical Rethinking Study Group A weekly hands-on study group run over five weeks on bayesian modelling iwth R and python based on the original course Statistical Rethinking by Richard McElreath.</description>
-    </item>
-    
-    <item>
-      <title>Media training</title>
-      <link>https://steefancontractor.github.io/post/media_training/</link>
-      <pubDate>Mon, 06 Aug 2018 10:07:31 +1000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/media_training/</guid>
-      <description>The ARC Centres of Excellence for Climate Extremes (CLEX) and Convergent Bio-nano Science &amp;amp; Technology (CBNS) held an all day media training workshop today.
-The workshop consisted of a presentation on effective communication from Alvin in the morning. Then, just after lunch, we did practice interviews in front of a camera and other participants. The aim of this practice interview was to see if participants can deliver up to three key points, and communicate based on the Alvin&amp;rsquo;s principals.</description>
-    </item>
-    
-    <item>
-      <title>ARCCSS/CLEX Winter School 2018: Event Detection and Attribution</title>
-      <link>https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/</link>
-      <pubDate>Fri, 13 Jul 2018 19:20:25 +0300</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/arccss-clex_winterschool_2018/</guid>
-      <description>I attended the ARCCSS/CLEX winter school from 25th-29th June 2018. The theme of the winter school was climate extremes and so it involved lectures in the morning on various climate extremes (such as heatwaves and rainfall extremes) and also a group activity in the afternoons. The groups were tasked with producing analysis investigating one of five complex questions which are listed below.
- Project A: Examine the influence of modes of climate variability on temperature extremes over Australia Project B: Examine the influence of modes of climate variability on precipitation extremes over Australia Project C: Examine the role of soil moisture preconditioning on the frequency and/or intensity of heatwaves Project D: Examine changes in drought and what this means for impacts in Australia Project E: Pick a recent extreme event.</description>
-    </item>
-    
-    <item>
-      <title>ResBaz 2018 - Visualising data on the web with D3</title>
-      <link>https://steefancontractor.github.io/post/d3_softwarecarpentry_resbaz2018/</link>
-      <pubDate>Sun, 08 Jul 2018 06:07:57 +0300</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/d3_softwarecarpentry_resbaz2018/</guid>
-      <description>I created the above web based visualisation during a workshop on D3.js at ResBaz 2018. Here, you can read about my ResBaz experience and learn about how you can create a scatterplot like this too!
-ResBaz 2018 On 4th July I participated in ResBaz 2018, an excellent conference for building and sharing research skills as well as networking. It is a fantastic platform for cross-disciplinary information and skill exchange.</description>
-    </item>
-    
-    <item>
-      <title>Voting In The Senate</title>
-      <link>https://steefancontractor.github.io/post/voting-in-the-senate/</link>
-      <pubDate>Sat, 02 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/voting-in-the-senate/</guid>
-      <description>The changed senate voting system actually makes a big difference to how we should vote this time around. In this blog I describe these changes and what they mean for us.
-In the federal election we get to cast two votes, one for the local candidate in the House of Representatives and the other for the Senate Candidate. I am in the electorate of Grayndler which historically has been a very safe Labor seat and even though there is a lot of hype out there about the new Greens candidate Jim Cassey, I still think Albanese is going to safely keep his seat (I would love to be wrong).</description>
-    </item>
-    
-    <item>
-      <title>Bellbird Wall, Close Call</title>
-      <link>https://steefancontractor.github.io/post/bellbird-wall-close-call/</link>
-      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://steefancontractor.github.io/post/bellbird-wall-close-call/</guid>
-      <description>Last Saturday, on 26th March 2016, a friend and fellow climber was injured while attempting a multipitch route near pulpit rock in Blackheath. This is a personal account of the events that unfolded.
-The plan was to leave Sydney at 7am, bright and early, and do either some multipitching or canyoning. We could have done one of the Bowens Ck South canyons or Butterbox canyon or either Whymper or Bellbird wall multipitch routes.</description>
-    </item>
+    <title>Posts | Steefan Contractor</title>
+    <link>https://SteefanContractor.github.io/post/</link>
+      <atom:link href="https://SteefanContractor.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://SteefanContractor.github.io/media/icon_hu4d574013bb10331a675ee8ec27a93153_23560_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://SteefanContractor.github.io/post/</link>
+    </image>
     
   </channel>
 </rss>
